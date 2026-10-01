@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jinky Suson — UI/UX Designer &amp; Frontend Developer</title>
+<meta name="description" content="Jinky Suson is a UI/UX Designer and Frontend Developer creating clean, accessible, responsive digital experiences.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <span class="topbar__dot"></span>
+  <span class="topbar__label">Portfolio</span>
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle light and dark mode">
+    <span class="theme-toggle__icon">☾</span>
+    <span class="theme-toggle__text">Dark Mode</span>
+  </button>
+</header>
+
+<main class="page">
+
+  <!-- Profile -->
+  <section class="profile">
+    <div class="profile__avatar" aria-hidden="true">
+      <img src="images/jin.png" alt="Jinky Suson photo">
+    </div>
+    <div class="profile__info">
+      <h1 class="profile__name">Suson, Jinky Borja</h1>
+      <p class="profile__location">
+        <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z"/></svg>
+        Philippines
+      </p>
+      <div class="profile__details">
+        <p>
+          <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 3 2 7l10 4 10-4-10-4zm-8 6v4.6c0 2.95 3.8 5.4 8 5.4s8-2.45 8-5.4V9l-8 3.2L4 9z"/></svg>
+          BSIT, Eastern Samar State University.
+        </p>
+      </div>
+      <p class="profile__title">UI/UX Designer &amp; Frontend Developer</p>
+      <div class="profile__actions">
+        <a href="assets/css/jinkyborja.pdf" class="btn btn--primary" id="downloadBtn" download="jinkyborja.pdf">
+          <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M5 20h14v-2H5v2zm7-18v12.17l3.59-3.58L17 12l-5 5-5-5 1.41-1.41L11 13.17V2h1z"/></svg>
+          Download CV
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jinkysuson09@gmail.com" class="btn btn--ghost" id="emailBtn" target="_blank" rel="noopener noreferrer">
+          <svg class="icon" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          Send Email
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- UI Designs -->
+  <section class="card ui-designs">
+    <h2 class="card__title">Selected UI Designs</h2>
+    <hr class="divider">
+    <div class="ui-marquees">
+      <div class="ui-marquee" aria-label="UI designs, images 1 through 11">
+        <div class="ui-marquee__track">
+          <div class="ui-marquee__group">
+            <img src="images/1.png" alt="Selected UI design 1" loading="lazy">
+            <img src="images/2.png" alt="Selected UI design 2" loading="lazy">
+            <img src="images/3.png" alt="Selected UI design 3" loading="lazy">
+            <img src="images/4.png" alt="Selected UI design 4" loading="lazy">
+            <img src="images/5.png" alt="Selected UI design 5" loading="lazy">
+            <img src="images/6.png" alt="Selected UI design 6" loading="lazy">
+            <img src="images/7.png" alt="Selected UI design 7" loading="lazy">
+            <img src="images/8.png" alt="Selected UI design 8" loading="lazy">
+            <img src="images/9.png" alt="Selected UI design 9" loading="lazy">
+            <img src="images/10.png" alt="Selected UI design 10" loading="lazy">
+            <img src="images/11.png" alt="Selected UI design 11" loading="lazy">
+          </div>
+          <div class="ui-marquee__group" aria-hidden="true">
+            <img src="images/1.png" alt="Selected UI design 1" loading="lazy">
+            <img src="images/2.png" alt="Selected UI design 2" loading="lazy">
+            <img src="images/3.png" alt="Selected UI design 3" loading="lazy">
+            <img src="images/4.png" alt="Selected UI design 4" loading="lazy">
+            <img src="images/5.png" alt="Selected UI design 5" loading="lazy">
+            <img src="images/6.png" alt="Selected UI design 6" loading="lazy">
+            <img src="images/7.png" alt="Selected UI design 7" loading="lazy">
+            <img src="images/8.png" alt="Selected UI design 8" loading="lazy">
+            <img src="images/9.png" alt="Selected UI design 9" loading="lazy">
+            <img src="images/10.png" alt="Selected UI design 10" loading="lazy">
+            <img src="images/11.png" alt="Selected UI design 11" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class="ui-marquee ui-marquee--reverse" aria-label="UI designs, images 12 through 22">
+        <div class="ui-marquee__track">
+          <div class="ui-marquee__group">
+            <img src="images/12.png" alt="Selected UI design 12" loading="lazy">
+            <img src="images/13.png" alt="Selected UI design 13" loading="lazy">
+            <img src="images/14.png" alt="Selected UI design 14" loading="lazy">
+            <img src="images/15.png" alt="Selected UI design 15" loading="lazy">
+            <img src="images/16.png" alt="Selected UI design 16" loading="lazy">
+            <img src="images/17.png" alt="Selected UI design 17" loading="lazy">
+            <img src="images/18.png" alt="Selected UI design 18" loading="lazy">
+            <img src="images/19.png" alt="Selected UI design 19" loading="lazy">
+            <img src="images/20.png" alt="Selected UI design 20" loading="lazy">
+            <img src="images/21.png" alt="Selected UI design 21" loading="lazy">
+            <img src="images/22.png" alt="Selected UI design 22" loading="lazy">
+          </div>
+          <div class="ui-marquee__group" aria-hidden="true">
+            <img src="images/12.png" alt="Selected UI design 12" loading="lazy">
+            <img src="images/13.png" alt="Selected UI design 13" loading="lazy">
+            <img src="images/14.png" alt="Selected UI design 14" loading="lazy">
+            <img src="images/15.png" alt="Selected UI design 15" loading="lazy">
+            <img src="images/16.png" alt="Selected UI design 16" loading="lazy">
+            <img src="images/17.png" alt="Selected UI design 17" loading="lazy">
+            <img src="images/18.png" alt="Selected UI design 18" loading="lazy">
+            <img src="images/19.png" alt="Selected UI design 19" loading="lazy">
+            <img src="images/20.png" alt="Selected UI design 20" loading="lazy">
+            <img src="images/21.png" alt="Selected UI design 21" loading="lazy">
+            <img src="images/22.png" alt="Selected UI design 22" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="card">
+    <h2 class="card__title">About</h2>
+    <hr class="divider">
+    <p class="about__text">
+      I'm a UI/UX Designer and Frontend Developer who designs interfaces in Figma and builds them with HTML, CSS, JavaScript, and React. I care about clean, accessible, responsive experiences, and I like owning a project from user research and wireframes through to a deployed product. Through academic and community projects such as a library management system, a document request portal, and a case study website, I've practiced turning real user needs into working interfaces. I'm eager to grow through real-world projects.
+    </p>
+  </section>
+
+  <!-- Skills -->
+  <section class="card">
+    <h2 class="card__title">Skills</h2>
+    <hr class="divider">
+    <div class="skills-grid">
+      <div class="skills__panel">
+        <p class="skills__group-title">Design</p>
+        <ul class="skills">
+          <li>User Research</li>
+          <li>Wireframing</li>
+          <li>UI/UX Design</li>
+          <li>Prototyping</li>
+          <li>User Testing</li>
+          <li>Design Thinking</li>
+          <li>Information Architecture</li>
+          <li>Accessibility (A11y)</li>
+          <li>Design Systems</li>
+          <li>Interaction Design</li>
+          <li>Visual Design</li>
+          <li>Usability Testing</li>
+          <li>Figma</li>
+          <li>Figma Plugins</li>
+          <li>Auto Layout</li>
+          <li>Component Libraries</li>
+          <li>Developer Handoff</li>
+          <li>Canva</li>
+        </ul>
+      </div>
+      <div class="skills__panel">
+        <p class="skills__group-title">Frontend Development</p>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Tailwind CSS</li>
+          <li>Responsive Web Design</li>
+          <li>Flexbox &amp; Grid</li>
+          <li>Component-Based Development</li>
+          <li>REST API Integration</li>
+          <li>Cross-Browser Compatibility</li>
+          <li>Web Accessibility (WCAG)</li>
+          <li>Design-to-Code</li>
+          <li>Framer</li>
+        </ul>
+      </div>
+      <div class="skills__panel skills__panel--tools">
+        <p class="skills__group-title">Tools &amp; Platforms</p>
+        <ul class="tools-list">
+          <li><div class="tool-logo-card"><img src="https://cdn.simpleicons.org/github" alt="" aria-hidden="true"></div><span>Git &amp; GitHub</span></li>
+          <li><div class="tool-logo-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="" aria-hidden="true"></div><span>VS Code</span></li>
+          <li><div class="tool-logo-card"><img src="https://cdn.simpleicons.org/googlechrome" alt="" aria-hidden="true"></div><span>Chrome DevTools</span></li>
+          <li><div class="tool-logo-card"><img src="https://cdn.simpleicons.org/vercel" alt="" aria-hidden="true"></div><span>Vercel</span></li>
+          <li><div class="tool-logo-card"><img src="https://cdn.simpleicons.org/netlify" alt="" aria-hidden="true"></div><span>Netlify</span></li>
+          <li><div class="tool-logo-card"><img src="https://cdn.simpleicons.org/render" alt="" aria-hidden="true"></div><span>Render</span></li>
+          <li><div class="tool-logo-card"><img src="https://cdn.simpleicons.org/wordpress" alt="" aria-hidden="true"></div><span>WordPress</span></li>
+          <li><div class="tool-logo-card"><img src="https://cdn.simpleicons.org/joomla" alt="" aria-hidden="true"></div><span>Joomla</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="card">
+    <h2 class="card__title">Projects</h2>
+    <hr class="divider">
+    <div class="projects-list">
+      <article class="project">
+        <img class="project__image" src="images/library.png" alt="RFID Library System preview">
+        <div class="project__content">
+          <h3 class="project__title">RFID Library System</h3>
+          <p class="project__description">A library management system for RFID-powered book tracking and checkout workflows.</p>
+          <a class="project__link" href="https://rfid-library-r38h.onrender.com" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">&#8599;</span></a>
+        </div>
+      </article>
+      <article class="project">
+        <img class="project__image" src="images/eindex-home.png" alt="E-Index System preview">
+        <div class="project__content">
+          <h3 class="project__title">E-Index System</h3>
+          <p class="project__description">A digital indexing platform for organizing and retrieving information across multiple categories.</p>
+          <a class="project__link" href="https://e-index-ir8v.onrender.com" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">&#8599;</span></a>
+        </div>
+      </article>
+      <article class="project">
+        <img class="project__image" src="images/essudocuflow-home.png" alt="ESSU GradDocuFlow preview">
+        <div class="project__content">
+          <h3 class="project__title">ESSU GradDocuFlow</h3>
+          <p class="project__description">A university graduate-document request portal designed to simplify requests and tracking.</p>
+          <a class="project__link" href="https://essu-docuflow.vercel.app/login" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">&#8599;</span></a>
+        </div>
+      </article>
+      <article class="project">
+        <img class="project__image" src="images/sapao-home.png" alt="Sapao Coast Extensions preview">
+        <div class="project__content">
+          <h3 class="project__title">Sapao Coast Extensions</h3>
+          <p class="project__description">A website sharing university extension programs and their impact in the community.</p>
+          <a class="project__link" href="https://sapao-coast.vercel.app/" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">&#8599;</span></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<a href="https://wa.me/639855162530" class="fab" id="messageFab" aria-label="Message" target="_blank" rel="noopener noreferrer">
+  <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M12 2C6.48 2 2 6.03 2 11c0 2.61 1.23 4.94 3.2 6.6L4 22l4.6-1.52C9.66 20.8 10.81 21 12 21c5.52 0 10-4.03 10-9S17.52 2 12 2z"/></svg>
+</a>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox__backdrop" data-close="true"></div>
+  <div class="lightbox__dialog" role="dialog" aria-modal="true" aria-label="Image preview">
+    <button type="button" class="lightbox__close" aria-label="Close preview">✕</button>
+    <img class="lightbox__image" src="" alt="">
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
